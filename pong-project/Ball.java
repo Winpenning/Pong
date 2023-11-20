@@ -11,6 +11,8 @@ public class Ball extends Actor
     }
     public void act()
     {
+         verificarColisao();
+         
         setLocation(getX()+deltaX,getY()+deltaY);
         if(getY()<10 || getY()>390){
             deltaY = deltaY * -1;
@@ -19,5 +21,13 @@ public class Ball extends Actor
             deltaX = deltaX * -1;
             
         }
-            }
+    }
+    private void verificarColisao() {
+        Paddle paddle = (Paddle) getOneIntersectingObject(Paddle.class);
+        Paddle2 paddle2 = (Paddle2) getOneIntersectingObject(Paddle2.class);
+
+        if (paddle != null || paddle2 != null) {
+            deltaX = -deltaX;
+        }
+    }
 }
