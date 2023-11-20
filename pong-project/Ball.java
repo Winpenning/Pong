@@ -7,7 +7,7 @@ public class Ball extends Actor
     private int deltaY;
     public Ball(){
         deltaX = 3;
-        deltaY = 3;
+        deltaY = 4;
     }
     public void act()
     {
