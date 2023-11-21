@@ -6,6 +6,15 @@ class.wall.image=Wall.jpg
 dependency1.from=MyWorld
 dependency1.to=Ball
 dependency1.type=UsesDependency
+<<<<<<< HEAD
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=1087
+package.numDependencies=1
+package.numTargets=2
+=======
 dependency2.from=MyWorld
 dependency2.to=Paddle
 dependency2.type=UsesDependency
@@ -24,7 +33,13 @@ editor.fx.0.x=-144
 editor.fx.0.y=71
 height=734
 package.numDependencies=5
+<<<<<<< HEAD
 package.numTargets=5
+=======
+package.numTargets=4
+>>>>>>> 2a214b7121f532a052e3f2bfd30e84730a092816
+>>>>>>> 67c869a1cc2865fc20c15a16b601ebf4effc34be
+>>>>>>> 0dba5fb5f15c5909a0246d21655c31de25bf0b5f
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -53,6 +68,10 @@ target2.type=ClassTarget
 target2.width=120
 target2.x=0
 target2.y=0
+<<<<<<< HEAD
+version=3.1.0
+width=974
+=======
 target3.height=70
 target3.name=Paddle
 target3.showInterface=false
@@ -67,6 +86,7 @@ target4.type=ClassTarget
 target4.width=120
 target4.x=0
 target4.y=0
+<<<<<<< HEAD
 target5.height=70
 target5.name=MyWorld
 target5.showInterface=false
@@ -76,6 +96,12 @@ target5.x=0
 target5.y=0
 version=3.0.0
 width=1294
+=======
+version=3.1.0
+width=160
+>>>>>>> 2a214b7121f532a052e3f2bfd30e84730a092816
+>>>>>>> 67c869a1cc2865fc20c15a16b601ebf4effc34be
+>>>>>>> 0dba5fb5f15c5909a0246d21655c31de25bf0b5f
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
