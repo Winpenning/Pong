@@ -15,11 +15,11 @@ public class Paddle2 extends Actor
     }
 
     private void mover() {
-        if (Greenfoot.isKeyDown("w")) {
+        if (Greenfoot.isKeyDown("up")) {
             setLocation(getX(), getY() - velocidade);
         }
 
-        if (Greenfoot.isKeyDown("s")) {
+        if (Greenfoot.isKeyDown("down")) {
             setLocation(getX(), getY() + velocidade);
         }
     }

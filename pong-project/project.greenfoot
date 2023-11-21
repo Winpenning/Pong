@@ -2,6 +2,7 @@
 class.Ball.image=blue-draught.png
 class.Paddle.image=Wall.jpg
 class.Paddle2.image=Wall.jpg
+class.wall.image=Wall.jpg
 dependency1.from=MyWorld
 dependency1.to=Ball
 dependency1.type=UsesDependency
@@ -17,6 +18,7 @@ dependency4.type=UsesDependency
 dependency5.from=Ball
 dependency5.to=Paddle2
 dependency5.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=729
 editor.fx.0.width=816
 editor.fx.0.x=1016
@@ -24,6 +26,21 @@ editor.fx.0.y=97
 height=1096
 package.numDependencies=5
 package.numTargets=5
+=======
+editor.fx.0.height=734
+editor.fx.0.width=1294
+editor.fx.0.x=-144
+editor.fx.0.y=71
+height=734
+package.numDependencies=5
+<<<<<<< HEAD
+package.numTargets=5
+=======
+package.numTargets=4
+>>>>>>> 2a214b7121f532a052e3f2bfd30e84730a092816
+>>>>>>> 67c869a1cc2865fc20c15a16b601ebf4effc34be
+>>>>>>> 0dba5fb5f15c5909a0246d21655c31de25bf0b5f
+>>>>>>> 984eb0aae3896f21a0cc5a7340a57e5cd08c97b8
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -60,12 +77,20 @@ target3.width=120
 target3.x=0
 target3.y=0
 target4.height=70
+<<<<<<< HEAD
 target4.name=Border
+=======
+target4.name=wall
+>>>>>>> 984eb0aae3896f21a0cc5a7340a57e5cd08c97b8
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=120
 target4.x=0
 target4.y=0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 984eb0aae3896f21a0cc5a7340a57e5cd08c97b8
 target5.height=70
 target5.name=MyWorld
 target5.showInterface=false
@@ -73,8 +98,19 @@ target5.type=ClassTarget
 target5.width=120
 target5.x=0
 target5.y=0
+<<<<<<< HEAD
 version=3.1.0
 width=1936
+=======
+version=3.0.0
+width=1294
+=======
+version=3.1.0
+width=160
+>>>>>>> 2a214b7121f532a052e3f2bfd30e84730a092816
+>>>>>>> 67c869a1cc2865fc20c15a16b601ebf4effc34be
+>>>>>>> 0dba5fb5f15c5909a0246d21655c31de25bf0b5f
+>>>>>>> 984eb0aae3896f21a0cc5a7340a57e5cd08c97b8
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
