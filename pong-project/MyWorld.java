@@ -17,12 +17,10 @@ public class MyWorld extends World
     { 
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-<<<<<<< HEAD
-=======
+
         addObject(new Ball(), getWidth() / 2, getHeight() / 2);
         addObject(new Paddle(), 50, getHeight() / 2);
-        addObject(new Paddle2(), getWidth() - 50, getHeight() / 2);
->>>>>>> 2a214b7121f532a052e3f2bfd30e84730a092816
+        addObject(new Paddle2(), getWidth() - 50, getHeight() / 2); 
         
     }
 }

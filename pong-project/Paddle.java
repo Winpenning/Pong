@@ -9,17 +9,17 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Paddle extends Actor
 {
          private int velocidade = 5;
-
+    
     public void act() {
         mover();
     }
 
     private void mover() {
-        if (Greenfoot.isKeyDown("up")) {
+        if (Greenfoot.isKeyDown("w")) {
             setLocation(getX(), getY() - velocidade);
         }
 
-        if (Greenfoot.isKeyDown("down")) {
+        if (Greenfoot.isKeyDown("s")) {
             setLocation(getX(), getY() + velocidade);
         }
     }

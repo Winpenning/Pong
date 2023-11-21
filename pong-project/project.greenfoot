@@ -1,16 +1,8 @@
 #Greenfoot project file
 class.Ball.image=blue-draught.png
-<<<<<<< HEAD
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-height=734
-package.numDependencies=0
-package.numTargets=3
-=======
 class.Paddle.image=Wall.jpg
 class.Paddle2.image=Wall.jpg
+class.wall.image=Wall.jpg
 dependency1.from=MyWorld
 dependency1.to=Ball
 dependency1.type=UsesDependency
@@ -26,14 +18,13 @@ dependency4.type=UsesDependency
 dependency5.from=Ball
 dependency5.to=Paddle2
 dependency5.type=UsesDependency
-editor.fx.0.height=729
-editor.fx.0.width=816
-editor.fx.0.x=1016
-editor.fx.0.y=97
-height=28
+editor.fx.0.height=734
+editor.fx.0.width=1294
+editor.fx.0.x=-144
+editor.fx.0.y=71
+height=734
 package.numDependencies=5
-package.numTargets=4
->>>>>>> 2a214b7121f532a052e3f2bfd30e84730a092816
+package.numTargets=5
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -56,41 +47,35 @@ target1.width=120
 target1.x=0
 target1.y=0
 target2.height=70
-<<<<<<< HEAD
-target2.name=Border
-=======
 target2.name=Paddle2
->>>>>>> 2a214b7121f532a052e3f2bfd30e84730a092816
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=120
 target2.x=0
 target2.y=0
 target3.height=70
-<<<<<<< HEAD
-target3.name=MyWorld
-=======
 target3.name=Paddle
->>>>>>> 2a214b7121f532a052e3f2bfd30e84730a092816
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=120
 target3.x=0
 target3.y=0
-<<<<<<< HEAD
-version=3.0.0
-width=1294
-=======
 target4.height=70
-target4.name=MyWorld
+target4.name=wall
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=120
 target4.x=0
 target4.y=0
-version=3.1.0
-width=160
->>>>>>> 2a214b7121f532a052e3f2bfd30e84730a092816
+target5.height=70
+target5.name=MyWorld
+target5.showInterface=false
+target5.type=ClassTarget
+target5.width=120
+target5.x=0
+target5.y=0
+version=3.0.0
+width=1294
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0

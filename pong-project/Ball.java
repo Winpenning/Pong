@@ -12,15 +12,14 @@ public class Ball extends Actor
     public void act()
     {
          verificarColisao();
-         
         setLocation(getX()+deltaX,getY()+deltaY);
         if(getY()<10 || getY()>390){
             deltaY = deltaY * -1;
         }
         if(getX()<1 || getX()>590){
-            deltaX = deltaX * -1;
-            
-        }
+            //deltaX = deltaX * -1;
+            getWorld().removeObject(this);
+                }
     }
     private void verificarColisao() {
         Paddle paddle = (Paddle) getOneIntersectingObject(Paddle.class);
