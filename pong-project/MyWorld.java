@@ -19,10 +19,6 @@ public class MyWorld extends World
         super(600, 400, 1); 
         addObject(new Ball(), getWidth() / 2, getHeight() / 2);
         addObject(new Paddle(), 50, getHeight() / 2);
-        addObject(new Paddle2(), getWidth() - 50, getHeight() / 2);
-        addObject(new Ball(), getWidth() / 2, getHeight() / 2);
-        addObject(new Paddle(), 50, getHeight() / 2);
         addObject(new Paddle2(), getWidth() - 50, getHeight() / 2); 
-        
     }
 }

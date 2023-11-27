@@ -19,6 +19,7 @@ public class Ball extends Actor
         if(getX()<1 || getX()>590){
             //deltaX = deltaX * -1;
             getWorld().removeObject(this);
+            
                 }
     }
     private void verificarColisao() {
