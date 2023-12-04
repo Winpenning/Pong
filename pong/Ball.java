@@ -6,7 +6,7 @@ public class Ball extends Actor
     private int speedX = 3;
     private int speedY = 3;
     GifImage myGif = new GifImage("cat.gif");
-    
+    Context context = new Context();
     public void act() 
     {
         setImage(myGif.getCurrentImage());
@@ -67,7 +67,8 @@ public class Ball extends Actor
         {
             setImage("p2w.png");
             setLocation (300,200);
-            Greenfoot.playSound("escudo.mp3");
+            context.setStrategy(new ConcreteStrategyOne());
+            context.executeStrategy();
         {
             Greenfoot.stop();
         }
@@ -81,7 +82,8 @@ public class Ball extends Actor
         {
             setImage("p1w.png");
             setLocation (300,200);
-            Greenfoot.playSound("win.wav");
+            context.setStrategy(new ConcreteStrategyTwo());
+            context.executeStrategy();
         {
             Greenfoot.stop();
         }
